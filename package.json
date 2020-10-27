@@ -1,16 +1,21 @@
 {
-  "name": "aspireiq",
-  "version": "0.0.1",
-  "description": "aspireiq backend",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "William Penagos <billalpeza@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "lowdb": "^1.0.0"
-  }
+	"name": "aspireiq",
+	"version": "0.0.1",
+	"description": "aspireiq backend",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "./node_modules/mocha/bin/mocha"
+	},
+	"author": "William Penagos <billalpeza@gmail.com>",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"lowdb": "^1.0.0"
+	},
+	"devDependencies": {
+		"mocha": "^8.2.0",
+		"supertest": "^5.0.0"
+	}
 }

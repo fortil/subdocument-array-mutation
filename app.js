@@ -1,4 +1,4 @@
-const App = require('./bootstrap')
+const App = require('./src/bootstrap')
 
 if (require.main === module) {
   App.then(app => {
